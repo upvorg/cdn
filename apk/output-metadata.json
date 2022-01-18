@@ -8,11 +8,40 @@
   "variantName": "processReleaseResources",
   "elements": [
     {
-      "type": "SINGLE",
-      "filters": [],
-      "versionCode": 9,
-      "versionName": "2.9.9",
-      "outputFile": "app-release.apk"
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "versionCode": 4007,
+      "versionName": "3.0.0",
+      "outputFile": "app-x86_64-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "versionCode": 1007,
+      "versionName": "3.0.0",
+      "outputFile": "app-armeabi-v7a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "versionCode": 2007,
+      "versionName": "3.0.0",
+      "outputFile": "app-arm64-v8a-release.apk"
     }
   ]
 }
