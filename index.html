@@ -7,14 +7,21 @@
     <title>upppv</title>
     <meta name="keywords" content="upv" />
     <meta name="description" content="" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" />
     <style>
       html {
         --primary-color: #6668ab;
       }
 
+      html,
       body {
-        width: 100vw;
-        height: 100vh;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      body {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -22,8 +29,8 @@
         color: white;
         text-align: center;
         padding: 3em;
-        box-sizing: border-box;
         background: linear-gradient(to bottom, var(--primary-color), #1e1e1e);
+        /* font-family: 'Nanum Pen Script'; */
       }
 
       .icon {
