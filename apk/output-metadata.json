@@ -16,7 +16,7 @@
         }
       ],
       "attributes": [],
-      "versionCode": 4015,
+      "versionCode": 4016,
       "versionName": "3.0.0",
       "outputFile": "app-x86_64-release.apk"
     },
@@ -29,7 +29,7 @@
         }
       ],
       "attributes": [],
-      "versionCode": 2015,
+      "versionCode": 2016,
       "versionName": "3.0.0",
       "outputFile": "app-arm64-v8a-release.apk"
     },
@@ -42,7 +42,7 @@
         }
       ],
       "attributes": [],
-      "versionCode": 1015,
+      "versionCode": 1016,
       "versionName": "3.0.0",
       "outputFile": "app-armeabi-v7a-release.apk"
     }
