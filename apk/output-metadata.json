@@ -16,22 +16,9 @@
         }
       ],
       "attributes": [],
-      "versionCode": 4019,
+      "versionCode": 4020,
       "versionName": "3.0.0",
       "outputFile": "app-x86_64-release.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
-          "value": "arm64-v8a"
-        }
-      ],
-      "attributes": [],
-      "versionCode": 2019,
-      "versionName": "3.0.0",
-      "outputFile": "app-arm64-v8a-release.apk"
     },
     {
       "type": "ONE_OF_MANY",
@@ -42,9 +29,22 @@
         }
       ],
       "attributes": [],
-      "versionCode": 1019,
+      "versionCode": 1020,
       "versionName": "3.0.0",
       "outputFile": "app-armeabi-v7a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 2020,
+      "versionName": "3.0.0",
+      "outputFile": "app-arm64-v8a-release.apk"
     }
   ],
   "elementType": "File"
